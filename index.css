@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: kballaboard ;
+  src: url(css-fonts/kballaboard-font/Kballaboard-ey9e.ttf);
+}
+
+body{
+  font-family:kballaboard, Caveat, 'Shadows Into Light' , 'Indie Flower' , Tourney, 'Architects Daughter'
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+#about{
+  background: linear-gradient( #2193b0, #6dd5ed);
+  
+}
+
+.aboutcontainer{
+  width: 100%;
+  text-align: center;
+  /*background-image: url(Thomas2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;*/
+}
+
+.about{
+  display: inline-block;
+  margin-left: 0 auto;
+  padding: 3px;
+  width: 50%;
+}
+
+#tracks{
+  background-color: aqua;
+}
+
+#smoke{
+  background-color: pink;
+}
+
+#vape{
+  background-color: yellow;
+}
+
+#music{
+  background-color: green;
+}
+
+#aboard{
+  background-color: white;
+
+}
+
+#ultimate{
+  background-color: black;
+  color: white;
+}
+
+.footer{
+  text-align: center;
+
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.twitter, .youtube, .telegram{
+  width: 50px;
+  height: 50px;
+  margin: 10px 10px 10px 10px;
+}
+
+
+/*Home*/
+.container{
+
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.anchor{
+  display: inline;
+}
+
+a.home{
+  text-decoration: none;
+  border: 1px indianred solid;
+  font-size: 50px;
+  padding: 4px;
+  margin: 10px 10px 10px 0;
+  background: rgb(245, 44, 44);
+  color: rgb(24, 214, 214);
+  border-radius: 10px;
+}
